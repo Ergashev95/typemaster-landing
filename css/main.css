@@ -65,3 +65,21 @@ body {
 }
 
 /* BTN 2 */
+
+.btn-2 {
+    display: block;
+    background-color: var(--grey);
+    padding: 16px 26px;
+    border-radius: 8px;
+    color: var(--dark-blue);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    width: max-content;
+    transition: .4s;
+}
+.btn-2:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
