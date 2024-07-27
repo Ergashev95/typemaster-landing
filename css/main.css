@@ -162,3 +162,70 @@ body {
 /* SITE-HERO */
 
 
+/* PRODUCT SECTION */
+.product {
+    padding-bottom: 84px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:  
+        "sm lg lg lg2 lg2"
+        "sm lg lg lg2 lg2"
+    ;
+    gap: 30px;
+}
+.product-item {
+    min-height: 480px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.product-keyboard__sm {
+    grid-area: sm;
+    position: relative;
+}
+.product-keyboard__lg {
+    grid-area: lg;
+}
+.product-keyboard__text {
+    grid-area: lg2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 27px;
+}
+.product__picture img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.product-hover {
+    width: 100%;
+    height: 100%;
+    background-color: #e35a0aa8;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.product-title {
+    color: var(--dark-blue);
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase;
+    max-width: 255px;
+    width: 100%;
+
+}
+.product-desc {
+    color: var(--dark-blue-opacity);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    max-width: 255px;
+    width: 100%;
+}
+/* PRODUCT SECTION */
+
