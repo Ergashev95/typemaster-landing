@@ -267,7 +267,24 @@ body {
     font-size: 16px;
     font-weight: 500;
     line-height: 26px;
-    
+
 }
 /* SERVICE SECTION */
+
+/* SITE FOOTER */
+.site-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-desc {
+    text-align: center;
+    color: var(--dark-blue-opacity);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+.footer-desc > span {
+    font-weight: 700;
+}
+/* SITE FOOTER */
 
