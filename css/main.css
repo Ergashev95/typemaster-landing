@@ -229,3 +229,45 @@ body {
 }
 /* PRODUCT SECTION */
 
+
+/* SERVICE SECTION */
+.service {
+    padding-top: 84px;
+    padding-bottom: 84px;
+}
+.service-cards {
+    display: flex;
+    column-gap: 30px;
+}
+.sevice-card {
+    max-width: 255px;
+    width: 100%;
+}
+.icon-monitor {
+    width: 65px;
+    height: 65px;
+    border-radius: 12px;
+    background-color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-card__title {
+    margin-top: 48px;
+    margin-bottom: 24px;
+    color: var(--dark-blue);
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 28px;
+}
+.service-card__text {
+    color: var(--dark-blue-opacity);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    
+}
+/* SERVICE SECTION */
+
